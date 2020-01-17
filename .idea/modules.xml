@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/COMP249-Winter2020.iml" filepath="$PROJECT_DIR$/COMP249-Winter2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab_01/lab_01.iml" filepath="$PROJECT_DIR$/lab_01/lab_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab_02/lab_02.iml" filepath="$PROJECT_DIR$/lab_02/lab_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab_06/lab_06.iml" filepath="$PROJECT_DIR$/lab_06/lab_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_01/tutorial_01.iml" filepath="$PROJECT_DIR$/tutorial_01/tutorial_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial_02/tutorial_02.iml" filepath="$PROJECT_DIR$/tutorial_02/tutorial_02.iml" />
+    </modules>
+  </component>
+</project>
