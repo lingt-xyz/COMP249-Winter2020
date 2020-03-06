@@ -33,7 +33,6 @@ public class Company {
             int nbemployee = 0;
             listEmployee = cpny.readFromFile("CompanyRepertory.ser");
             if (listEmployee != null) {
-                System.out.println(listEmployee[nbemployee]);
                 while (listEmployee[nbemployee] != null) {
                     System.out.println("the number of employee is " + nbemployee);
                     nbemployee++;
@@ -144,7 +143,6 @@ public class Company {
                         }
                     }
                     break;
-
                 }
 
                 System.out.println("- Menu: ");
@@ -221,9 +219,7 @@ public class Company {
         FileInputStream fin = null;
         ObjectInputStream in = null;
         try {
-
             fin = new FileInputStream(filename);
-
             in = new ObjectInputStream(fin);
             //int numberOfEmployee= (Integer) in.readObject();
             listEmployee = new Employee[MAXCAPACITY];
@@ -232,13 +228,9 @@ public class Company {
                 listEmployee[pos] = (Employee) in.readObject();
                 pos++;
             }
-
-
         } catch (FileNotFoundException e) {
             System.out.println("There is no database");
-
         } catch (EOFException e) {
-
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
