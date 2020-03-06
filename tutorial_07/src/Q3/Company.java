@@ -207,12 +207,8 @@ public class Company {
                     e.printStackTrace();
                 }
             }
-
         }
-
-
     }
-
 
     private Employee[] readFromFile(String filename) {
         Employee[] listEmployee = null;
