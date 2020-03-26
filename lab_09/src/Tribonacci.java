@@ -24,7 +24,7 @@ public class Tribonacci {
      * Complexity is exponential.
      *
      * @param position a position of tribonacci number, starts from 0
-     * @return Tribonacci number at the <code>position</code>
+     * @return Tribonacci number at the {@code position}
      */
     int tribonacciAtPosition(int position) {
         if (position < 2) {

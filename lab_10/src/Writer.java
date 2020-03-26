@@ -3,6 +3,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+/**
+ * @author Ling
+ * @version 2020 Winter semester
+ * @Date 2020-March-26
+ */
 public class Writer {
     
     /**
