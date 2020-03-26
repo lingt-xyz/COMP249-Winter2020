@@ -1,3 +1,10 @@
+/**
+ * Class Rectangle that implements Fillable
+ *
+ * @author Ling
+ * @version 2020 Winter semester
+ * @Date 2020-March-26
+ */
 public class Rectangle implements Fillable {
     // Double x1, y1, x2, y2
     double x1, y1, x2, y2;

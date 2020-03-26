@@ -1,12 +1,14 @@
 import java.util.Random;
 
 /**
- * Requirements:
- * <p>
  * Create a driver class where you will create an array of Fillable objects, and initialize 2
  * circles and 3 rectangles (you may hardcode the shapes’ coordinates with valid values during
  * the instantiation). Then, test your program by iterating through the array to draw and fill each
  * of the shapes with random colors.
+ *
+ * @author Ling
+ * @version 2020 Winter semester
+ * @Date 2020-March-26
  */
 public class Driver {
     public static void main(String[] args) {

@@ -1,6 +1,9 @@
 /**
  * Class Circle that implements Fillable
- * ○
+ *
+ * @author Ling
+ * @version 2020 Winter semester
+ * @Date 2020-March-26
  */
 public class Circle implements Fillable {
     // Double x, y, radius

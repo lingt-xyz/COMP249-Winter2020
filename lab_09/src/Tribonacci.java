@@ -4,8 +4,6 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Requirements:
- * <p>
  * Create a Tribonacci class that has a recursive methods called tribonacciAtPosition()
  *
  * @author Ling
@@ -17,8 +15,6 @@ public class Tribonacci {
     private static final String FILE_PATH = "tribonacci.txt";
 
     /**
-     * Requirements:
-     * <p>
      * a) Takes the Tribonacci position (int) as a parameter.
      * b) Write the Tribonacci value of that position to a .txt file.
      * c) Makes a recursive call to itself until the Tribonacci value of the desired position is reached.
