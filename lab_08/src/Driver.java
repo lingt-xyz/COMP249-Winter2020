@@ -35,7 +35,7 @@ public class Driver {
             }
         } catch (EOFException ignored) {
         } catch (Exception err) {
-            System.err.println(err);
+            System.out.println(err);
         }
     }
 }
